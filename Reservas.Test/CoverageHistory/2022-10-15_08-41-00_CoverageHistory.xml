@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2022-10-15_08-41-00" tag="">
+  <assembly name="Reservas.Aplicacion">
+    <class name="Pedidos.Application.Dto.Producto.ProductoDto" coveredlines="0" coverablelines="3" totallines="13" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="Reservas.Aplicacion.Dtos.Clientes.ClienteDto" coveredlines="2" coverablelines="2" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.Dtos.Pagos.FacturaDto" coveredlines="5" coverablelines="5" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="5" />
+    <class name="Reservas.Aplicacion.Dtos.Pagos.PagoDto" coveredlines="5" coverablelines="5" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="5" />
+    <class name="Reservas.Aplicacion.Dtos.Reservas.ReservaDto" coveredlines="8" coverablelines="9" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="8" totalcodeelements="9" />
+    <class name="Reservas.Aplicacion.Dtos.Vuelos.VueloDto" coveredlines="4" coverablelines="4" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Aplicacion.Extensions" coveredlines="0" coverablelines="15" totallines="56" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.ExtensionsApp" coveredlines="0" coverablelines="4" totallines="28" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Reservas.Aplicacion.Services.Reservas.FacturaService" coveredlines="8" coverablelines="11" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="3" />
+    <class name="Reservas.Aplicacion.Services.Reservas.PagoService" coveredlines="8" coverablelines="8" totallines="24" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.Services.Reservas.ReservaService" coveredlines="8" coverablelines="15" totallines="40" coveredbranches="0" totalbranches="2" coveredcodeelements="2" totalcodeelements="4" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Pagos.CrearFactura.CrearFacturaCommand" coveredlines="0" coverablelines="7" totallines="23" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Pagos.CrearFactura.CrearFacturaHandler" coveredlines="0" coverablelines="23" totallines="59" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Pagos.CrearPago.CrearPagoCommand" coveredlines="0" coverablelines="7" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Pagos.CrearPago.CrearPagoHandler" coveredlines="0" coverablelines="35" totallines="74" coveredbranches="0" totalbranches="6" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Productos.CrearProductoCommand" coveredlines="0" coverablelines="12" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Productos.CrearProductoHandler" coveredlines="0" coverablelines="20" totallines="47" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Reservas.ActualizarSaldoReserva.ActualizarSaldoReservaHandler" coveredlines="11" coverablelines="15" totallines="39" coveredbranches="0" totalbranches="2" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Reservas.CancelarReserva.CancelarReservaCommand" coveredlines="0" coverablelines="5" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Reservas.CancelarReserva.CancelarReservaHandler" coveredlines="0" coverablelines="23" totallines="56" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Reservas.CrearReserva.CrearReservaCommand" coveredlines="0" coverablelines="9" totallines="23" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Reservas.CrearReserva.CrearReservaHandler" coveredlines="0" coverablelines="33" totallines="93" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Vuelos.UpdateCantReservaVuelos.UpdateCantCancelarReservaVuelosHandler" coveredlines="0" coverablelines="9" totallines="32" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Commands.Vuelos.UpdateCantReservaVuelos.UpdateCantReservaVuelosHandler" coveredlines="9" coverablelines="9" totallines="31" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.ManejadorRabbit.ReservaEventoManejador" coveredlines="0" coverablelines="16" totallines="43" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Pagos.BuscarFacturaPorId.BuscarFacturaPorIdHandler" coveredlines="0" coverablelines="24" totallines="51" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Pagos.BuscarFacturaPorId.BuscarFacturaPorIdQuery" coveredlines="0" coverablelines="6" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Pagos.BuscarFacturasReserva.BuscarFacturasReservaQuery" coveredlines="0" coverablelines="1" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Pagos.BuscarPagosReserva.BuscarPagosReservaQuery" coveredlines="0" coverablelines="1" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Reservas.BuscarReservas.BuscarReservasQuery" coveredlines="0" coverablelines="1" totallines="15" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Reservas.ObtenerReservaId.ObtenerReservaIdHandler" coveredlines="0" coverablelines="27" totallines="53" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Reservas.Aplicacion.UsesCases.Queries.Reservas.ObtenerReservaId.ObtenerReservaIdQuery" coveredlines="0" coverablelines="6" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+  </assembly>
+  <assembly name="Reservas.Dominio">
+    <class name="Pedidos.Domain.Event.ProductoCreado" coveredlines="11" coverablelines="11" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="5" />
+    <class name="Pedidos.Domain.Model.ValueObjects.CantidadValue" coveredlines="8" coverablelines="14" totallines="27" coveredbranches="1" totalbranches="2" coveredcodeelements="2" totalcodeelements="4" />
+    <class name="Pedidos.Domain.ValueObjects.PrecioValue" coveredlines="8" coverablelines="14" totallines="29" coveredbranches="1" totalbranches="2" coveredcodeelements="2" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Events.Reservas.PagoCompletadoEvent" coveredlines="7" coverablelines="7" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Reservas.Dominio.Events.Reservas.PagoCreadoEvent" coveredlines="7" coverablelines="7" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Reservas.Dominio.Events.Reservas.ReservaCanceladaEvent" coveredlines="7" coverablelines="7" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Reservas.Dominio.Events.Reservas.ReservaCreadaEvent" coveredlines="7" coverablelines="7" totallines="34" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Reservas.Dominio.Factories.Pagos.FacturaFactory" coveredlines="3" coverablelines="3" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="Reservas.Dominio.Factories.Pagos.PagoFactory" coveredlines="3" coverablelines="3" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="Reservas.Dominio.Factories.ProductoFactory" coveredlines="3" coverablelines="3" totallines="15" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="Reservas.Dominio.Factories.Reservas.ReservaFactory" coveredlines="3" coverablelines="3" totallines="24" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="Reservas.Dominio.Model.Productos.Producto" coveredlines="10" coverablelines="26" totallines="47" coveredbranches="0" totalbranches="2" coveredcodeelements="4" totalcodeelements="7" />
+    <class name="Reservas.Dominio.Models.Clientes.Cliente" coveredlines="7" coverablelines="7" totallines="23" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Reservas.Dominio.Models.Clientes.ValueObjects.PersonNameValue" coveredlines="13" coverablelines="15" totallines="34" coveredbranches="1" totalbranches="2" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Pagos.Factura" coveredlines="8" coverablelines="19" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="8" />
+    <class name="Reservas.Dominio.Models.Pagos.Pago" coveredlines="8" coverablelines="19" totallines="41" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="8" />
+    <class name="Reservas.Dominio.Models.Pagos.ValueObjetcs.CodigoComprobanteValue" coveredlines="12" coverablelines="12" totallines="36" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Pagos.ValueObjetcs.NumeroFacturaValue" coveredlines="12" coverablelines="12" totallines="36" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Reservas.Reserva" coveredlines="21" coverablelines="33" totallines="70" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="8" />
+    <class name="Reservas.Dominio.Models.Reservas.ValueObjects.CodigoReservaValue" coveredlines="12" coverablelines="12" totallines="36" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Reservas.ValueObjects.EstadoReservaValue" coveredlines="0" coverablelines="12" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Reservas.ValueObjects.TipoReservaValue" coveredlines="0" coverablelines="12" totallines="36" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.ValueObjects.MontoValue" coveredlines="12" coverablelines="14" totallines="34" coveredbranches="1" totalbranches="2" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Reservas.Dominio.Models.Vuelos.Vuelo" coveredlines="13" coverablelines="20" totallines="38" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="7" />
+  </assembly>
+  <assembly name="Shared.Rabbitmq">
+    <class name="Shared.Rabbitmq.Comandos.Comando" coveredlines="0" coverablelines="5" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Shared.Rabbitmq.EventoQueue.AeronaveAgregadaEventoQueue" coveredlines="0" coverablelines="15" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="7" />
+    <class name="Shared.Rabbitmq.EventoQueue.EmailEventoQueue" coveredlines="0" coverablelines="9" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Shared.Rabbitmq.EventoQueue.ReservaAgregadaEventoQueue" coveredlines="0" coverablelines="13" totallines="45" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="Shared.Rabbitmq.Eventos.Evento" coveredlines="0" coverablelines="5" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Shared.Rabbitmq.Eventos.Message" coveredlines="0" coverablelines="5" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Shared.Rabbitmq.Implement.RabbitEventBus" coveredlines="0" coverablelines="81" totallines="182" coveredbranches="0" totalbranches="12" coveredcodeelements="0" totalcodeelements="5" />
+  </assembly>
+  <assembly name="SharedKernel">
+    <class name="SharedKernel.Core.IntegrationEvent" coveredlines="0" coverablelines="7" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="SharedKernel.IntegrationEvents.AeronaveAgregadaEventoQueue" coveredlines="0" coverablelines="6" totallines="20" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="SharedKernel.IntegrationEvents.ArticuloCreado" coveredlines="0" coverablelines="5" totallines="20" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="SharedKernel.IntegrationEvents.ReservaCreada" coveredlines="0" coverablelines="3" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="SharedKernel.IntegrationEvents.StockArticuloActualizado" coveredlines="0" coverablelines="2" totallines="15" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="ShareKernel.Core.BussinessRuleValidationException" coveredlines="0" coverablelines="18" totallines="38" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="ShareKernel.Core.ConfirmedDomainEvent`1" coveredlines="0" coverablelines="5" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="ShareKernel.Core.DomainEvent" coveredlines="5" coverablelines="7" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="3" />
+    <class name="ShareKernel.Core.Entity`1" coveredlines="5" coverablelines="20" totallines="41" coveredbranches="0" totalbranches="4" coveredcodeelements="2" totalcodeelements="6" />
+    <class name="ShareKernel.Core.ValueObject" coveredlines="4" coverablelines="8" totallines="20" coveredbranches="2" totalbranches="4" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="ShareKernel.Rules.NotNullRule" coveredlines="0" coverablelines="8" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="ShareKernel.Rules.StringNotNullOrEmptyRule" coveredlines="7" coverablelines="8" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="3" />
+    <class name="ShareKernel.ValueObjects.PersonNameValue" coveredlines="0" coverablelines="15" totallines="30" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="4" />
+  </assembly>
+  <assembly name="ShareKernel">
+    <class name="ShareKernel.Cores.BussinessRuleValidationException" coveredlines="0" coverablelines="18" totallines="42" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="ShareKernel.Cores.DomainEvent" coveredlines="5" coverablelines="7" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="3" />
+    <class name="ShareKernel.Cores.Entity`1" coveredlines="5" coverablelines="20" totallines="44" coveredbranches="0" totalbranches="4" coveredcodeelements="2" totalcodeelements="6" />
+    <class name="ShareKernel.Cores.ValueObject" coveredlines="0" coverablelines="8" totallines="24" coveredbranches="0" totalbranches="4" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="ShareKernel.Rules.NotNullRule" coveredlines="0" coverablelines="8" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+  </assembly>
+</coverage>

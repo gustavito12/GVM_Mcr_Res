@@ -1,0 +1,28 @@
+{
+  "name": "gvm_mcr_res",
+  "version": "1.0.0",
+  "description": "Microservicio de Reserva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavito12/GVM_Mcr_Res.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavito12/GVM_Mcr_Res/issues"
+  },
+  "homepage": "https://github.com/gustavito12/GVM_Mcr_Res#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet-format --include"
+  }
+}
